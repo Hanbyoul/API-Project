@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+}
+
+.container{
+    /* background-color:white; */
+    background-image: url("https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW92aWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-position: right;
+}
+
+.headline{
+    display: flex;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.main-title{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 3.5em;
+    
+}
+
+.weather-box{
+margin-right: 10px;
+}
+
+.weathers{
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+    border-radius: 30px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-box{
+    margin-top: 8px;
+    width: 160px;
+    height:60px;
+    flex-wrap: wrap;
+}
+
+.btn-box button{
+    font-size: 12px;
+    border: none;
+    background-color: deepskyblue;
+    border-radius: 20%;
+    margin: 1px;
+}
+
+.sub-menu{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search-area{
+    /* border: 1px solid red; */
+    margin-top: 8px;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.src-input{
+    height: 38px;
+    width: 220px;
+    border-radius: 20px;
+    border: 1px solid #9e9e9e;
+    padding-left: 15px;
+
+}
+.search-button{
+ 
+    border-radius: 20px;
+
+}
+.menu-btn{
+    /* border: 1px solid green; */
+    
+}
+
+.menu-btn button:hover{
+    border: none;
+    background-color: deepskyblue;
+}
+
+.menu-btn button{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color:white;
+    border: 1px solid #9e9e9e;
+    border-radius: 10px;
+
+}
+
+.img-size{
+    width: 100%;
+    height: 400px;
+}
+
+.pagination{
+    justify-content: center;
+}
